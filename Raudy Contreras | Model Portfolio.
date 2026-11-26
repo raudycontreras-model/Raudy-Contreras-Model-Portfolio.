@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raudy Contreras | Model Portfolio</title>
+
+<style>
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;background:#f7f5f0;color:#171717;font-family:Arial,sans-serif}
+header{padding:25px 6%;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.logo{font:22px Georgia,serif;letter-spacing:2px;text-decoration:none;color:#171717}
+nav{display:flex;gap:20px;flex-wrap:wrap}
+nav a{font-size:10px;letter-spacing:1.5px;text-decoration:none;color:#171717}
+section{scroll-margin-top:25px}
+.cover{padding:15px 6% 65px}
+.cover img{width:100%;height:min(75vh,760px);object-fit:cover;object-position:center 35%;display:block}
+.caption{display:flex;justify-content:space-between;align-items:end;gap:15px;margin-top:20px}
+.caption h1{font:clamp(38px,7vw,75px) Georgia,serif;margin:0}
+.eyebrow{font-size:10px;letter-spacing:2px;color:#858078;text-transform:uppercase}
+main section{padding:65px 6%}
+h2{font:normal clamp(40px,7vw,72px) Georgia,serif;margin:15px 0 35px}
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:start}
+.gallery img{width:100%;height:550px;object-fit:cover;display:block}
+.gallery img:nth-child(even){margin-top:55px}
+.story{max-width:750px;margin:70px auto;text-align:center;font:clamp(21px,3vw,30px)/1.7 Georgia,serif}
+.polaroids{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px}
+.polaroid{background:white;padding:12px 12px 35px;box-shadow:0 5px 20px #00000012}
+.polaroid:nth-child(2){transform:rotate(2deg)}
+.polaroid:nth-child(3){transform:rotate(-2deg)}
+.polaroid img{width:100%;height:350px;object-fit:cover;display:block}
+.details{max-width:760px;margin:auto}
+.detail{display:flex;justify-content:space-between;gap:20px;padding:18px 0;border-bottom:1px solid #d9d5cd;font-size:13px}
+.detail span:first-child{font-size:10px;letter-spacing:1px;color:#858078;text-transform:uppercase}
+.contact{max-width:600px;font:26px/1.6 Georgia,serif}
+.contact a{color:#171717;font:11px Arial,sans-serif;letter-spacing:1.5px;text-decoration:none;border-bottom:1px solid;padding-bottom:8px}
+footer{padding:30px 6%;font-size:9px;letter-spacing:2px;color:#858078}
+@media(max-width:650px){
+header{padding:22px 5%}
+nav{gap:12px}
+nav a{font-size:9px}
+.cover{padding:12px 5% 45px}
+.cover img{height:65vh}
+.caption{display:block}
+main section{padding:45px 5%}
+.gallery{grid-template-columns:1fr}
+.gallery img{height:490px}
+.gallery img:nth-child(even){margin-top:0}
+.polaroids{grid-template-columns:1fr;padding:0 5%}
+.polaroid img{height:430px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<a class="logo" href="#inicio">RAUDY CONTRERAS</a>
+<nav>
+<a href="#portfolio">PORTFOLIO</a>
+<a href="#polaroids">POLAROIDS</a>
+<a href="#information">INFORMATION</a>
+<a href="#contact">CONTACT</a>
+</nav>
+</header>
+
+<section class="cover" id="inicio">
+<img src="IMG_5670.jpeg" alt="Raudy Contreras">
+<div class="caption">
+<div>
+<p class="eyebrow">MODEL PORTFOLIO · 2026</p>
+<h1>Raudy Contreras</h1>
+</div>
+<p class="eyebrow">DOMINICAN REPUBLIC</p>
+</div>
+</section>
+
+<main>
+
+<section id="portfolio">
+<p class="eyebrow">Selected photographs · 2026</p>
+<h2>Portfolio</h2>
+
+<div class="gallery">
+<img src="IMG_7825.jpeg" alt="Raudy Contreras">
+<img src="Presets-7161.jpeg" alt="Raudy Contreras">
+<img src="1E23CA27-97DE-4146-9FDD-1D034D4210AA.jpeg" alt="Raudy Contreras">
+<img src="IMG_1454.jpeg" alt="Raudy Contreras">
+<img src="IMG_3113.jpeg" alt="Raudy Contreras">
+<img src="IMG_4319.jpeg" alt="Raudy Contreras">
+<img src="IMG_4478.jpeg" alt="Raudy Contreras">
+<img src="IMG_4480.jpeg" alt="Raudy Contreras">
+<img src="IMG_4522.jpeg" alt="Raudy Contreras">
+<img src="Tezza-2609.jpeg" alt="Raudy Contreras">
+<img src="Tezza-3945.jpeg" alt="Raudy Contreras">
+</div>
+
+<div class="story">
+Durante estos 18 años he cambiado, evolucionado y renacido en muchas formas.
+</div>
+</section>
+
+<section id="polaroids">
+<p class="eyebrow">Personal archive</p>
+<h2>Polaroids</h2>
+
+<div class="polaroids">
+<div class="polaroid">
+<img src="IMG_5668.png" alt="Raudy Contreras">
+</div>
+<div class="polaroid">
+<img src="IMG_5806.jpeg" alt="Raudy Contreras">
+</div>
+<div class="polaroid">
+<img src="IMG_5803.jpeg" alt="Raudy Contreras">
+</div>
+</div>
+</section>
+
+<section id="information">
+<p class="eyebrow">Personal details & measurements</p>
+<h2>Model Information</h2>
+
+<div class="details">
+<div class="detail"><span>Name</span><span>Raudy Contreras</span></div>
+<div class="detail"><span>Height</span><span>6'1" / 185 cm</span></div>
+<div class="detail"><span>Weight</span><span>144 lb</span></div>
+<div class="detail"><span>Chest</span><span>89 cm</span></div>
+<div class="detail"><span>Waist</span><span>67 cm</span></div>
+<div class="detail"><span>Hips</span><span>85 cm</span></div>
+<div class="detail"><span>Shoe</span><span>41 EU</span></div>
+<div class="detail"><span>Eyes</span><span>Dark Brown</span></div>
+<div class="detail"><span>Hair</span><span>Black</span></div>
+</div>
+</section>
+
+<section id="contact">
+<p class="eyebrow">Bookings & collaborations</p>
+<h2>Let's Connect.</h2>
+<p class="contact">
+For bookings, collaborations and professional inquiries,
+feel free to get in touch.
+</p>
+<a href="mailto:TU-CORREO@GMAIL.COM">CONTACT VIA EMAIL →</a>
+</section>
+
+</main>
+
+<footer>RAUDY CONTRERAS © 2026</footer>
+
+</body>
+</html>
